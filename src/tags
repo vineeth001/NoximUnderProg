@@ -1,0 +1,375 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+COLUMN_AOC	NoximGlobalRoutingTable.h	13;"	d
+CommHistory	NoximStats.h	/^struct CommHistory {$/;"	s
+DEFAULT_BUFFER_DEPTH	NoximMain.h	75;"	d
+DEFAULT_DETAILED	NoximMain.h	88;"	d
+DEFAULT_DYAD_THRESHOLD	NoximMain.h	89;"	d
+DEFAULT_MAX_PACKET_SIZE	NoximMain.h	76;"	d
+DEFAULT_MAX_VOLUME_TO_BE_DRAINED	NoximMain.h	90;"	d
+DEFAULT_MESH_DIM_X	NoximMain.h	73;"	d
+DEFAULT_MESH_DIM_Y	NoximMain.h	74;"	d
+DEFAULT_MIN_PACKET_SIZE	NoximMain.h	77;"	d
+DEFAULT_PACKET_INJECTION_RATE	NoximMain.h	81;"	d
+DEFAULT_PROBABILITY_OF_RETRANSMISSION	NoximMain.h	82;"	d
+DEFAULT_RESET_TIME	NoximMain.h	85;"	d
+DEFAULT_ROUTING_ALGORITHM	NoximMain.h	78;"	d
+DEFAULT_ROUTING_TABLE_FILENAME	NoximMain.h	79;"	d
+DEFAULT_SELECTION_STRATEGY	NoximMain.h	80;"	d
+DEFAULT_SIMULATION_TIME	NoximMain.h	86;"	d
+DEFAULT_STATS_WARM_UP_TIME	NoximMain.h	87;"	d
+DEFAULT_TRACE_FILENAME	NoximMain.h	72;"	d
+DEFAULT_TRACE_MODE	NoximMain.h	71;"	d
+DEFAULT_TRAFFIC_DISTRIBUTION	NoximMain.h	83;"	d
+DEFAULT_TRAFFIC_TABLE_FILENAME	NoximMain.h	84;"	d
+DEFAULT_VERBOSE_MODE	NoximMain.h	70;"	d
+DIRECTIONS	NoximMain.h	20;"	d
+DIRECTION_EAST	NoximMain.h	22;"	d
+DIRECTION_LOCAL	NoximMain.h	25;"	d
+DIRECTION_NORTH	NoximMain.h	21;"	d
+DIRECTION_SOUTH	NoximMain.h	23;"	d
+DIRECTION_WEST	NoximMain.h	24;"	d
+Drop	NoximBuffer.cpp	/^void NoximBuffer::Drop(const NoximFlit & flit) const$/;"	f	class:NoximBuffer
+Empty	NoximBuffer.cpp	/^void NoximBuffer::Empty() const$/;"	f	class:NoximBuffer
+FLIT_TYPE_BODY	NoximMain.h	/^    FLIT_TYPE_HEAD, FLIT_TYPE_BODY, FLIT_TYPE_TAIL$/;"	e	enum:NoximFlitType
+FLIT_TYPE_HEAD	NoximMain.h	/^    FLIT_TYPE_HEAD, FLIT_TYPE_BODY, FLIT_TYPE_TAIL$/;"	e	enum:NoximFlitType
+FLIT_TYPE_TAIL	NoximMain.h	/^    FLIT_TYPE_HEAD, FLIT_TYPE_BODY, FLIT_TYPE_TAIL$/;"	e	enum:NoximFlitType
+Forward	NoximPower.cpp	/^void NoximPower::Forward()$/;"	f	class:NoximPower
+Front	NoximBuffer.cpp	/^NoximFlit NoximBuffer::Front() const$/;"	f	class:NoximBuffer
+GetMaxBufferSize	NoximBuffer.cpp	/^unsigned int NoximBuffer::GetMaxBufferSize() const$/;"	f	class:NoximBuffer
+INVALID_ROUTING	NoximMain.h	43;"	d
+INVALID_SELECTION	NoximMain.h	49;"	d
+INVALID_TRAFFIC	NoximMain.h	61;"	d
+Incoming	NoximPower.cpp	/^void NoximPower::Incoming()$/;"	f	class:NoximPower
+IsEmpty	NoximBuffer.cpp	/^bool NoximBuffer::IsEmpty() const$/;"	f	class:NoximBuffer
+IsFull	NoximBuffer.cpp	/^bool NoximBuffer::IsFull() const$/;"	f	class:NoximBuffer
+MAX_STATIC_DIM	NoximMain.h	93;"	d
+NOT_RESERVED	NoximMain.h	28;"	d
+NOT_VALID	NoximMain.h	31;"	d
+NoPScore	NoximRouter.cpp	/^int NoximRouter::NoPScore(const NoximNoP_data & nop_data,$/;"	f	class:NoximRouter
+NoP_report	NoximRouter.cpp	/^void NoximRouter::NoP_report() const$/;"	f	class:NoximRouter
+NoximAdmissibleOutputs	NoximGlobalRoutingTable.h	/^typedef set < NoximLinkId > NoximAdmissibleOutputs;$/;"	t
+NoximBuffer	NoximBuffer.cpp	/^NoximBuffer::NoximBuffer()$/;"	f	class:NoximBuffer
+NoximBuffer	NoximBuffer.h	/^class NoximBuffer {$/;"	c
+NoximChannelStatus	NoximMain.h	/^struct NoximChannelStatus {$/;"	s
+NoximCommunication	NoximGlobalTrafficTable.h	/^struct NoximCommunication {$/;"	s
+NoximCoord	NoximMain.h	/^class NoximCoord {$/;"	c
+NoximFlit	NoximMain.h	/^struct NoximFlit {$/;"	s
+NoximFlitType	NoximMain.h	/^enum NoximFlitType {$/;"	g
+NoximGlobalParams	NoximMain.h	/^struct NoximGlobalParams {$/;"	s
+NoximGlobalRoutingTable	NoximGlobalRoutingTable.cpp	/^NoximGlobalRoutingTable::NoximGlobalRoutingTable()$/;"	f	class:NoximGlobalRoutingTable
+NoximGlobalRoutingTable	NoximGlobalRoutingTable.h	/^class NoximGlobalRoutingTable {$/;"	c
+NoximGlobalStats	NoximGlobalStats.cpp	/^NoximGlobalStats::NoximGlobalStats(const NoximNoC * _noc)$/;"	f	class:NoximGlobalStats
+NoximGlobalStats	NoximGlobalStats.h	/^class NoximGlobalStats {$/;"	c
+NoximGlobalTrafficTable	NoximGlobalTrafficTable.cpp	/^NoximGlobalTrafficTable::NoximGlobalTrafficTable()$/;"	f	class:NoximGlobalTrafficTable
+NoximGlobalTrafficTable	NoximGlobalTrafficTable.h	/^class NoximGlobalTrafficTable {$/;"	c
+NoximLinkId	NoximGlobalRoutingTable.h	/^typedef pair < int, int >NoximLinkId;$/;"	t
+NoximLocalRoutingTable	NoximLocalRoutingTable.cpp	/^NoximLocalRoutingTable::NoximLocalRoutingTable()$/;"	f	class:NoximLocalRoutingTable
+NoximLocalRoutingTable	NoximLocalRoutingTable.h	/^class NoximLocalRoutingTable {$/;"	c
+NoximNoP_data	NoximMain.h	/^struct NoximNoP_data {$/;"	s
+NoximPacket	NoximMain.h	/^    NoximPacket() { }$/;"	f	struct:NoximPacket
+NoximPacket	NoximMain.h	/^    NoximPacket(const int s, const int d, const int inter_d, const double ts, const int sz, bool ph) {		\/\/vinu: added inter_d and phase flag$/;"	f	struct:NoximPacket
+NoximPacket	NoximMain.h	/^struct NoximPacket {$/;"	s
+NoximPayload	NoximMain.h	/^struct NoximPayload {$/;"	s
+NoximPower	NoximPower.cpp	/^NoximPower::NoximPower()$/;"	f	class:NoximPower
+NoximPower	NoximPower.h	/^class NoximPower {$/;"	c
+NoximReservationTable	NoximReservationTable.cpp	/^NoximReservationTable::NoximReservationTable()$/;"	f	class:NoximReservationTable
+NoximReservationTable	NoximReservationTable.h	/^class NoximReservationTable {$/;"	c
+NoximRouteData	NoximMain.h	/^struct NoximRouteData {$/;"	s
+NoximRoutingTableLink	NoximGlobalRoutingTable.h	/^typedef map < int, NoximAdmissibleOutputs > NoximRoutingTableLink;$/;"	t
+NoximRoutingTableNoC	NoximGlobalRoutingTable.h	/^typedef map < int, NoximRoutingTableNode > NoximRoutingTableNoC;$/;"	t
+NoximRoutingTableNode	NoximGlobalRoutingTable.h	/^typedef map < NoximLinkId, NoximRoutingTableLink > NoximRoutingTableNode;$/;"	t
+NoximStats	NoximStats.h	/^    NoximStats() {$/;"	f	class:NoximStats
+NoximStats	NoximStats.h	/^class NoximStats {$/;"	c
+PWR_FORWARD_FLIT	NoximPower.h	45;"	d
+PWR_INCOMING	NoximPower.h	46;"	d
+PWR_ROUTING_DYAD	NoximPower.h	37;"	d
+PWR_ROUTING_FULLY_ADAPTIVE	NoximPower.h	38;"	d
+PWR_ROUTING_NEGATIVE_FIRST	NoximPower.h	35;"	d
+PWR_ROUTING_NORTH_LAST	NoximPower.h	34;"	d
+PWR_ROUTING_ODD_EVEN	NoximPower.h	36;"	d
+PWR_ROUTING_TABLE_BASED	NoximPower.h	39;"	d
+PWR_ROUTING_WEST_FIRST	NoximPower.h	33;"	d
+PWR_ROUTING_XY	NoximPower.h	32;"	d
+PWR_SEL_BUFFER_LEVEL	NoximPower.h	42;"	d
+PWR_SEL_NOP	NoximPower.h	43;"	d
+PWR_SEL_RANDOM	NoximPower.h	41;"	d
+PWR_STANDBY	NoximPower.h	47;"	d
+Pop	NoximBuffer.cpp	/^NoximFlit NoximBuffer::Pop()$/;"	f	class:NoximBuffer
+Push	NoximBuffer.cpp	/^void NoximBuffer::Push(const NoximFlit & flit)$/;"	f	class:NoximBuffer
+ROUTING_DYAD	NoximMain.h	39;"	d
+ROUTING_FULLY_ADAPTIVE	NoximMain.h	40;"	d
+ROUTING_NEGATIVE_FIRST	NoximMain.h	37;"	d
+ROUTING_NORTH_LAST	NoximMain.h	36;"	d
+ROUTING_ODD_EVEN	NoximMain.h	38;"	d
+ROUTING_TABLE_BASED	NoximMain.h	41;"	d
+ROUTING_VALIANT	NoximMain.h	42;"	d
+ROUTING_WEST_FIRST	NoximMain.h	35;"	d
+ROUTING_XY	NoximMain.h	34;"	d
+Routing	NoximPower.cpp	/^void NoximPower::Routing()$/;"	f	class:NoximPower
+SC_MODULE	NoximNoC.h	/^SC_MODULE(NoximNoC)$/;"	f
+SC_MODULE	NoximProcessingElement.h	/^SC_MODULE(NoximProcessingElement)$/;"	f
+SC_MODULE	NoximRouter.h	/^SC_MODULE(NoximRouter)$/;"	f
+SC_MODULE	NoximTile.h	/^SC_MODULE(NoximTile)$/;"	f
+SEL_BUFFER_LEVEL	NoximMain.h	47;"	d
+SEL_NOP	NoximMain.h	48;"	d
+SEL_RANDOM	NoximMain.h	46;"	d
+Selection	NoximPower.cpp	/^void NoximPower::Selection()$/;"	f	class:NoximPower
+SetMaxBufferSize	NoximBuffer.cpp	/^void NoximBuffer::SetMaxBufferSize(const unsigned int bms)$/;"	f	class:NoximBuffer
+Size	NoximBuffer.cpp	/^unsigned int NoximBuffer::Size() const$/;"	f	class:NoximBuffer
+Standby	NoximPower.cpp	/^void NoximPower::Standby()$/;"	f	class:NoximPower
+TRAFFIC_BIT_REVERSAL	NoximMain.h	57;"	d
+TRAFFIC_BUTTERFLY	NoximMain.h	59;"	d
+TRAFFIC_HOTSPOT	NoximMain.h	55;"	d
+TRAFFIC_OneDest	NoximMain.h	60;"	d
+TRAFFIC_RANDOM	NoximMain.h	52;"	d
+TRAFFIC_SHUFFLE	NoximMain.h	58;"	d
+TRAFFIC_TABLE_BASED	NoximMain.h	56;"	d
+TRAFFIC_TRANSPOSE1	NoximMain.h	53;"	d
+TRAFFIC_TRANSPOSE2	NoximMain.h	54;"	d
+VERBOSE_HIGH	NoximMain.h	67;"	d
+VERBOSE_LOW	NoximMain.h	65;"	d
+VERBOSE_MEDIUM	NoximMain.h	66;"	d
+VERBOSE_OFF	NoximMain.h	64;"	d
+__NOXIMBUFFER_H__	NoximBuffer.h	12;"	d
+__NOXIMCMDLINEPARSER_H__	NoximCmdLineParser.h	12;"	d
+__NOXIMGLOBALROUTINGTABLE_H__	NoximGlobalRoutingTable.h	11;"	d
+__NOXIMGLOBALSTATS_H__	NoximGlobalStats.h	12;"	d
+__NOXIMGLOBALTRAFFIC_TABLE_H__	NoximGlobalTrafficTable.h	12;"	d
+__NOXIMLOCALROUTINGTABLE_H__	NoximLocalRoutingTable.h	12;"	d
+__NOXIMMAIN_H__	NoximMain.h	12;"	d
+__NOXIMNOC_H__	NoximNoC.h	12;"	d
+__NOXIMPOWER_H__	NoximPower.h	12;"	d
+__NOXIMPROCESSINGELEMENT_H__	NoximProcessingElement.h	12;"	d
+__NOXIMRESERVATIONTABLE_H__	NoximReservationTable.h	12;"	d
+__NOXIMROUTER_H__	NoximRouter.h	12;"	d
+__NOXIMSTATS_H__	NoximStats.h	12;"	d
+__NOXIMTILE_H__	NoximTile.h	12;"	d
+admissibleOutputsSet2Vector	NoximGlobalRoutingTable.cpp	/^    int >admissibleOutputsSet2Vector(const NoximAdmissibleOutputs & ao)$/;"	f
+available	NoximMain.h	/^    bool available;		\/\/ $/;"	m	struct:NoximChannelStatus
+buffer	NoximBuffer.h	/^    queue < NoximFlit > buffer;$/;"	m	class:NoximBuffer
+bufferMonitor	NoximRouter.cpp	/^void NoximRouter::bufferMonitor()$/;"	f	class:NoximRouter
+buffer_depth	NoximMain.cpp	/^int NoximGlobalParams::buffer_depth = DEFAULT_BUFFER_DEPTH;$/;"	m	class:NoximGlobalParams	file:
+buffer_depth	NoximMain.h	/^    static int buffer_depth;$/;"	m	struct:NoximGlobalParams
+buildMesh	NoximNoC.cpp	/^void NoximNoC::buildMesh()$/;"	f	class:NoximNoC
+canShot	NoximProcessingElement.cpp	/^bool NoximProcessingElement::canShot(NoximPacket & packet)$/;"	f	class:NoximProcessingElement
+channel_status_neighbor	NoximMain.h	/^    NoximChannelStatus channel_status_neighbor[DIRECTIONS];$/;"	m	struct:NoximNoP_data
+checkInputParameters	NoximCmdLineParser.cpp	/^void checkInputParameters()$/;"	f
+chist	NoximStats.h	/^    vector < CommHistory > chist;$/;"	m	class:NoximStats
+clear	NoximReservationTable.cpp	/^void NoximReservationTable::clear()$/;"	f	class:NoximReservationTable
+configure	NoximLocalRoutingTable.cpp	/^void NoximLocalRoutingTable::configure(NoximGlobalRoutingTable & rtable,$/;"	f	class:NoximLocalRoutingTable
+configure	NoximRouter.cpp	/^void NoximRouter::configure(const int _id,$/;"	f	class:NoximRouter
+configure	NoximStats.cpp	/^void NoximStats::configure(const int node_id, const double _warm_up_time)$/;"	f	class:NoximStats
+coord2Id	NoximMain.h	/^inline int coord2Id(const NoximCoord & coord)$/;"	f
+current_id	NoximMain.h	/^    int current_id;$/;"	m	struct:NoximRouteData
+data	NoximMain.h	/^    sc_uint<32> data;	\/\/ Bus for the data to be exchanged$/;"	m	struct:NoximPayload
+delays	NoximStats.h	/^     vector < double >delays;$/;"	m	struct:CommHistory
+detailed	NoximMain.cpp	/^bool NoximGlobalParams::detailed = DEFAULT_DETAILED;$/;"	m	class:NoximGlobalParams	file:
+detailed	NoximMain.h	/^    static bool detailed;$/;"	m	struct:NoximGlobalParams
+dir_in	NoximMain.h	/^    int dir_in;			\/\/ direction from which the packet comes from$/;"	m	struct:NoximRouteData
+direction2ILinkId	NoximGlobalRoutingTable.cpp	/^NoximLinkId direction2ILinkId(const int node_id, const int dir)$/;"	f
+drained_total	NoximGlobalStats.h	/^    unsigned int drained_total;$/;"	m	class:NoximGlobalStats
+drained_volume	NoximMain.cpp	/^unsigned int drained_volume;$/;"	v
+dst	NoximGlobalTrafficTable.h	/^    int dst;			\/\/ ID of the destination node (PE)$/;"	m	struct:NoximCommunication
+dst_id	NoximMain.h	/^    int dst_id;			$/;"	m	struct:NoximRouteData
+dst_id	NoximMain.h	/^    int dst_id;$/;"	m	struct:NoximFlit
+dst_id	NoximMain.h	/^    int dst_id;$/;"	m	struct:NoximPacket
+dyad_threshold	NoximMain.cpp	/^float NoximGlobalParams::dyad_threshold = DEFAULT_DYAD_THRESHOLD;$/;"	m	class:NoximGlobalParams	file:
+dyad_threshold	NoximMain.h	/^    static float dyad_threshold;$/;"	m	struct:NoximGlobalParams
+fixRanges	NoximProcessingElement.cpp	/^void NoximProcessingElement::fixRanges(const NoximCoord src,$/;"	f	class:NoximProcessingElement
+flit_left	NoximMain.h	/^    int flit_left;		\/\/ Number of remaining flits inside the packet$/;"	m	struct:NoximPacket
+flit_type	NoximMain.h	/^    NoximFlitType flit_type;	\/\/ The flit type (FLIT_TYPE_HEAD, FLIT_TYPE_BODY, FLIT_TYPE_TAIL)$/;"	m	struct:NoximFlit
+free_slots	NoximMain.h	/^    int free_slots;		\/\/ occupied buffer slots$/;"	m	struct:NoximChannelStatus
+getAdmissibleOutputs	NoximLocalRoutingTable.cpp	/^getAdmissibleOutputs(const NoximLinkId & in_link, const int destination_id)$/;"	f	class:NoximLocalRoutingTable
+getAdmissibleOutputs	NoximLocalRoutingTable.cpp	/^getAdmissibleOutputs(const int in_direction, const int destination_id)$/;"	f	class:NoximLocalRoutingTable
+getAverageDelay	NoximGlobalStats.cpp	/^double NoximGlobalStats::getAverageDelay()$/;"	f	class:NoximGlobalStats
+getAverageDelay	NoximGlobalStats.cpp	/^double NoximGlobalStats::getAverageDelay(const int src_id,$/;"	f	class:NoximGlobalStats
+getAverageDelay	NoximStats.cpp	/^double NoximStats::getAverageDelay()$/;"	f	class:NoximStats
+getAverageDelay	NoximStats.cpp	/^double NoximStats::getAverageDelay(const int src_id)$/;"	f	class:NoximStats
+getAverageThroughput	NoximGlobalStats.cpp	/^double NoximGlobalStats::getAverageThroughput()$/;"	f	class:NoximGlobalStats
+getAverageThroughput	NoximGlobalStats.cpp	/^double NoximGlobalStats::getAverageThroughput(const int src_id,$/;"	f	class:NoximGlobalStats
+getAverageThroughput	NoximStats.cpp	/^double NoximStats::getAverageThroughput()$/;"	f	class:NoximStats
+getAverageThroughput	NoximStats.cpp	/^double NoximStats::getAverageThroughput(const int src_id)$/;"	f	class:NoximStats
+getBit	NoximProcessingElement.cpp	/^int NoximProcessingElement::getBit(int x, int w)$/;"	f	class:NoximProcessingElement
+getCommunicationEnergy	NoximStats.cpp	/^double NoximStats::getCommunicationEnergy(int src_id, int dst_id)$/;"	f	class:NoximStats
+getCumulativePirPor	NoximGlobalTrafficTable.cpp	/^double NoximGlobalTrafficTable::getCumulativePirPor(const int src_id,$/;"	f	class:NoximGlobalTrafficTable
+getCurrentFreeSlots	NoximBuffer.cpp	/^unsigned int NoximBuffer::getCurrentFreeSlots() const$/;"	f	class:NoximBuffer
+getCurrentNoPData	NoximRouter.cpp	/^NoximNoP_data NoximRouter::getCurrentNoPData() const$/;"	f	class:NoximRouter
+getFlitsCount	NoximRouter.cpp	/^unsigned int NoximRouter::getFlitsCount()$/;"	f	class:NoximRouter
+getMaxDelay	NoximGlobalStats.cpp	/^double NoximGlobalStats::getMaxDelay()$/;"	f	class:NoximGlobalStats
+getMaxDelay	NoximGlobalStats.cpp	/^double NoximGlobalStats::getMaxDelay(const int node_id)$/;"	f	class:NoximGlobalStats
+getMaxDelay	NoximGlobalStats.cpp	/^double NoximGlobalStats::getMaxDelay(const int src_id, const int dst_id)$/;"	f	class:NoximGlobalStats
+getMaxDelay	NoximStats.cpp	/^double NoximStats::getMaxDelay()$/;"	f	class:NoximStats
+getMaxDelay	NoximStats.cpp	/^double NoximStats::getMaxDelay(const int src_id)$/;"	f	class:NoximStats
+getMaxDelayMtx	NoximGlobalStats.cpp	/^vector < vector < double > > NoximGlobalStats::getMaxDelayMtx()$/;"	f	class:NoximGlobalStats
+getNeighborId	NoximRouter.cpp	/^int NoximRouter::getNeighborId(int _id, int direction) const$/;"	f	class:NoximRouter
+getNodeRoutingTable	NoximGlobalRoutingTable.cpp	/^getNodeRoutingTable(const int node_id)$/;"	f	class:NoximGlobalRoutingTable
+getOutputPort	NoximReservationTable.cpp	/^int NoximReservationTable::getOutputPort(const int port_in) const$/;"	f	class:NoximReservationTable
+getPower	NoximGlobalStats.cpp	/^double NoximGlobalStats::getPower()$/;"	f	class:NoximGlobalStats
+getPower	NoximPower.h	/^    double getPower() {$/;"	f	class:NoximPower
+getPower	NoximRouter.cpp	/^double NoximRouter::getPower()$/;"	f	class:NoximRouter
+getPwrForward	NoximPower.h	/^    double getPwrForward() {$/;"	f	class:NoximPower
+getPwrIncoming	NoximPower.h	/^    double getPwrIncoming() {$/;"	f	class:NoximPower
+getPwrRouting	NoximPower.h	/^    } double getPwrRouting() {$/;"	f	class:NoximPower
+getPwrSelection	NoximPower.h	/^    double getPwrSelection() {$/;"	f	class:NoximPower
+getPwrStandBy	NoximPower.h	/^    double getPwrStandBy() {$/;"	f	class:NoximPower
+getRandomSize	NoximProcessingElement.cpp	/^int NoximProcessingElement::getRandomSize()$/;"	f	class:NoximProcessingElement
+getReceivedFlits	NoximGlobalStats.cpp	/^unsigned int NoximGlobalStats::getReceivedFlits()$/;"	f	class:NoximGlobalStats
+getReceivedFlits	NoximStats.cpp	/^unsigned int NoximStats::getReceivedFlits()$/;"	f	class:NoximStats
+getReceivedPackets	NoximGlobalStats.cpp	/^unsigned int NoximGlobalStats::getReceivedPackets()$/;"	f	class:NoximGlobalStats
+getReceivedPackets	NoximStats.cpp	/^unsigned int NoximStats::getReceivedPackets()$/;"	f	class:NoximStats
+getRoutedFlits	NoximRouter.cpp	/^unsigned long NoximRouter::getRoutedFlits()$/;"	f	class:NoximRouter
+getRoutedFlitsMtx	NoximGlobalStats.cpp	/^vector < vector < unsigned long > > NoximGlobalStats::getRoutedFlitsMtx()$/;"	f	class:NoximGlobalStats
+getThroughput	NoximGlobalStats.cpp	/^double NoximGlobalStats::getThroughput()$/;"	f	class:NoximGlobalStats
+getTotalCommunications	NoximStats.cpp	/^unsigned int NoximStats::getTotalCommunications()$/;"	f	class:NoximStats
+hop_no	NoximMain.h	/^    int hop_no;			\/\/ Current number of hops from source to destination$/;"	m	struct:NoximFlit
+hotspots	NoximMain.cpp	/^vector <pair <int, double> > NoximGlobalParams::hotspots;$/;"	m	class:NoximGlobalParams	file:
+hotspots	NoximMain.h	/^    static vector <pair <int, double> > hotspots;$/;"	m	struct:NoximGlobalParams
+id	NoximStats.h	/^    int id;$/;"	m	class:NoximStats
+id2Coord	NoximMain.h	/^inline NoximCoord id2Coord(int id)$/;"	f
+inCongestion	NoximRouter.cpp	/^bool NoximRouter::inCongestion()$/;"	f	class:NoximRouter
+inter_dst_id	NoximMain.h	/^    int inter_dst_id;		\/\/ vinu: intermediate destination (i_d_i)$/;"	m	struct:NoximFlit
+inter_dst_id	NoximMain.h	/^    int inter_dst_id;		\/\/ vinu: intermediate_destination_id : only for valiants$/;"	m	struct:NoximPacket
+inter_dst_id	NoximMain.h	/^    int inter_dst_id;		\/\/vinu: for valiant algo$/;"	m	struct:NoximRouteData
+invalidate	NoximReservationTable.cpp	/^void NoximReservationTable::invalidate(const int port_out)$/;"	f	class:NoximReservationTable
+isAvailable	NoximReservationTable.cpp	/^bool NoximReservationTable::isAvailable(const int port_out) const$/;"	f	class:NoximReservationTable
+isValid	NoximGlobalRoutingTable.h	/^    bool isValid() {$/;"	f	class:NoximGlobalRoutingTable
+last_received_flit_time	NoximStats.h	/^    double last_received_flit_time;$/;"	m	struct:CommHistory
+load	NoximGlobalRoutingTable.cpp	/^bool NoximGlobalRoutingTable::load(const char *fname)$/;"	f	class:NoximGlobalRoutingTable
+load	NoximGlobalTrafficTable.cpp	/^bool NoximGlobalTrafficTable::load(const char *fname) 		\/\/load traffic type$/;"	f	class:NoximGlobalTrafficTable
+log2ceil	NoximProcessingElement.cpp	/^inline double NoximProcessingElement::log2ceil(double x)$/;"	f	class:NoximProcessingElement
+make	NoximMain.h	/^    void make(const int s, const int d, const int inter_d, const double ts, const int sz, bool ph) {$/;"	f	struct:NoximPacket
+max_buffer_size	NoximBuffer.h	/^    unsigned int max_buffer_size;$/;"	m	class:NoximBuffer
+max_packet_size	NoximMain.cpp	/^int NoximGlobalParams::max_packet_size = DEFAULT_MAX_PACKET_SIZE;$/;"	m	class:NoximGlobalParams	file:
+max_packet_size	NoximMain.h	/^    static int max_packet_size;$/;"	m	struct:NoximGlobalParams
+max_volume_to_be_drained	NoximMain.cpp	/^unsigned int NoximGlobalParams::max_volume_to_be_drained = DEFAULT_MAX_VOLUME_TO_BE_DRAINED;$/;"	m	class:NoximGlobalParams	file:
+max_volume_to_be_drained	NoximMain.h	/^    static unsigned int max_volume_to_be_drained;$/;"	m	struct:NoximGlobalParams
+mesh_dim_x	NoximMain.cpp	/^int NoximGlobalParams::mesh_dim_x = DEFAULT_MESH_DIM_X;$/;"	m	class:NoximGlobalParams	file:
+mesh_dim_x	NoximMain.h	/^    static int mesh_dim_x;$/;"	m	struct:NoximGlobalParams
+mesh_dim_y	NoximMain.cpp	/^int NoximGlobalParams::mesh_dim_y = DEFAULT_MESH_DIM_Y;$/;"	m	class:NoximGlobalParams	file:
+mesh_dim_y	NoximMain.h	/^    static int mesh_dim_y;$/;"	m	struct:NoximGlobalParams
+min_packet_size	NoximMain.cpp	/^int NoximGlobalParams::min_packet_size = DEFAULT_MIN_PACKET_SIZE;$/;"	m	class:NoximGlobalParams	file:
+min_packet_size	NoximMain.h	/^    static int min_packet_size;$/;"	m	struct:NoximGlobalParams
+nextFlit	NoximProcessingElement.cpp	/^NoximFlit NoximProcessingElement::nextFlit()$/;"	f	class:NoximProcessingElement
+noc	NoximGlobalStats.h	/^    const NoximNoC *noc;$/;"	m	class:NoximGlobalStats
+node_id	NoximLocalRoutingTable.h	/^    int node_id;$/;"	m	class:NoximLocalRoutingTable
+oLinkId2Direction	NoximGlobalRoutingTable.cpp	/^int oLinkId2Direction(const NoximLinkId & out_link)$/;"	f
+occurrencesAsSource	NoximGlobalTrafficTable.cpp	/^int NoximGlobalTrafficTable::occurrencesAsSource(const int src_id)$/;"	f	class:NoximGlobalTrafficTable
+operator <<	NoximMain.h	/^inline ostream & operator <<(ostream & os, const NoximCoord & coord)$/;"	f
+operator <<	NoximMain.h	/^inline ostream & operator <<(ostream & os, const NoximFlit & flit)$/;"	f
+operator <<	NoximMain.h	/^inline ostream & operator <<(ostream & os, const NoximNoP_data & NoP_data)$/;"	f
+operator <<	NoximMain.h	/^inline ostream & operator <<(ostream & os,$/;"	f
+operator ==	NoximMain.h	/^    inline bool operator ==(const NoximChannelStatus & bs) const {$/;"	f	struct:NoximChannelStatus
+operator ==	NoximMain.h	/^    inline bool operator ==(const NoximCoord & coord) const {  \/\/to check if the coordinates are equal$/;"	f	class:NoximCoord
+operator ==	NoximMain.h	/^    inline bool operator ==(const NoximFlit & flit) const {$/;"	f	struct:NoximFlit
+operator ==	NoximMain.h	/^    inline bool operator ==(const NoximNoP_data & nop_data) const {$/;"	f	struct:NoximNoP_data
+operator ==	NoximMain.h	/^    inline bool operator ==(const NoximPayload & payload) const {$/;"	f	struct:NoximPayload
+packet_injection_rate	NoximMain.cpp	/^float NoximGlobalParams::packet_injection_rate = DEFAULT_PACKET_INJECTION_RATE;$/;"	m	class:NoximGlobalParams	file:
+packet_injection_rate	NoximMain.h	/^    static float packet_injection_rate;$/;"	m	struct:NoximGlobalParams
+parseCmdLine	NoximCmdLineParser.cpp	/^void parseCmdLine(int arg_num, char *arg_vet[])$/;"	f
+payload	NoximMain.h	/^    NoximPayload payload;	\/\/ Optional payload$/;"	m	struct:NoximFlit
+phase	NoximMain.h	/^    bool phase;			\/\/ vinu: for valiant algo, phase flag$/;"	m	struct:NoximPacket
+phase	NoximMain.h	/^    bool phase;			\/\/vinu: for phase in valiant's algo$/;"	m	struct:NoximRouteData
+phase	NoximMain.h	/^    bool phase;$/;"	m	struct:NoximFlit
+pir	NoximGlobalTrafficTable.h	/^    float pir;			\/\/ Packet Injection Rate for the link$/;"	m	struct:NoximCommunication
+por	NoximGlobalTrafficTable.h	/^    float por;			\/\/ Probability Of Retransmission for the link$/;"	m	struct:NoximCommunication
+power	NoximStats.h	/^    NoximPower power;$/;"	m	class:NoximStats
+probability_of_retransmission	NoximMain.cpp	/^float NoximGlobalParams::probability_of_retransmission = DEFAULT_PROBABILITY_OF_RETRANSMISSION;$/;"	m	class:NoximGlobalParams	file:
+probability_of_retransmission	NoximMain.h	/^    static float probability_of_retransmission;$/;"	m	struct:NoximGlobalParams
+pwr	NoximPower.h	/^    double pwr;$/;"	m	class:NoximPower
+pwr_forward	NoximPower.h	/^    double pwr_forward;$/;"	m	class:NoximPower
+pwr_incoming	NoximPower.h	/^    double pwr_incoming;$/;"	m	class:NoximPower
+pwr_routing	NoximPower.h	/^    double pwr_routing;$/;"	m	class:NoximPower
+pwr_selection	NoximPower.h	/^    double pwr_selection;$/;"	m	class:NoximPower
+pwr_standby	NoximPower.h	/^    double pwr_standby;$/;"	m	class:NoximPower
+randInt	NoximProcessingElement.cpp	/^int NoximProcessingElement::randInt(int min, int max)$/;"	f	class:NoximProcessingElement
+receivedFlit	NoximStats.cpp	/^void NoximStats::receivedFlit(const double arrival_time,$/;"	f	class:NoximStats
+reflexDirection	NoximRouter.cpp	/^int NoximRouter::reflexDirection(int direction) const$/;"	f	class:NoximRouter
+release	NoximReservationTable.cpp	/^void NoximReservationTable::release(const int port_out)$/;"	f	class:NoximReservationTable
+reserve	NoximReservationTable.cpp	/^void NoximReservationTable::reserve(const int port_in, const int port_out)$/;"	f	class:NoximReservationTable
+rnd_generator_seed	NoximMain.cpp	/^int NoximGlobalParams::rnd_generator_seed = time(NULL);$/;"	m	class:NoximGlobalParams	file:
+rnd_generator_seed	NoximMain.h	/^    static int rnd_generator_seed;$/;"	m	struct:NoximGlobalParams
+route	NoximRouter.cpp	/^int NoximRouter::route(const NoximRouteData & route_data)$/;"	f	class:NoximRouter
+routingDyAD	NoximRouter.cpp	/^vector < int >NoximRouter::routingDyAD(const NoximCoord & current,$/;"	f	class:NoximRouter
+routingFullyAdaptive	NoximRouter.cpp	/^vector < int >NoximRouter::routingFullyAdaptive(const NoximCoord & current,$/;"	f	class:NoximRouter
+routingFunction	NoximRouter.cpp	/^    int >NoximRouter::routingFunction(const NoximRouteData & route_data)$/;"	f	class:NoximRouter
+routingNegativeFirst	NoximRouter.cpp	/^vector < int >NoximRouter::routingNegativeFirst(const NoximCoord & current,$/;"	f	class:NoximRouter
+routingNorthLast	NoximRouter.cpp	/^vector < int >NoximRouter::routingNorthLast(const NoximCoord & current,$/;"	f	class:NoximRouter
+routingOddEven	NoximRouter.cpp	/^vector < int >NoximRouter::routingOddEven(const NoximCoord & current,$/;"	f	class:NoximRouter
+routingTableBased	NoximRouter.cpp	/^vector < int >NoximRouter::routingTableBased(const int dir_in,$/;"	f	class:NoximRouter
+routingValiant	NoximRouter.cpp	/^vector < int >NoximRouter::routingValiant(const NoximCoord & current,                        \/\/vinu: for valiant$/;"	f	class:NoximRouter
+routingWestFirst	NoximRouter.cpp	/^vector < int >NoximRouter::routingWestFirst(const NoximCoord & current,$/;"	f	class:NoximRouter
+routingXY	NoximRouter.cpp	/^vector < int >NoximRouter::routingXY(const NoximCoord & current,			\/\/vinu: change3; also declare in .h$/;"	f	class:NoximRouter
+routing_algorithm	NoximMain.cpp	/^int NoximGlobalParams::routing_algorithm = DEFAULT_ROUTING_ALGORITHM;$/;"	m	class:NoximGlobalParams	file:
+routing_algorithm	NoximMain.h	/^    static int routing_algorithm;$/;"	m	struct:NoximGlobalParams
+routing_table_filename	NoximMain.cpp	/^char NoximGlobalParams::routing_table_filename[128] = DEFAULT_ROUTING_TABLE_FILENAME;$/;"	m	class:NoximGlobalParams	file:
+routing_table_filename	NoximMain.h	/^    static char routing_table_filename[128];$/;"	m	struct:NoximGlobalParams
+rt_noc	NoximGlobalRoutingTable.h	/^     NoximRoutingTableNoC rt_noc;$/;"	m	class:NoximGlobalRoutingTable
+rt_node	NoximLocalRoutingTable.h	/^     NoximRoutingTableNode rt_node;$/;"	m	class:NoximLocalRoutingTable
+rtable	NoximReservationTable.h	/^     vector < int >rtable;	\/\/ reservation vector: rtable[i] gives the input$/;"	m	class:NoximReservationTable
+rxProcess	NoximProcessingElement.cpp	/^void NoximProcessingElement::rxProcess()$/;"	f	class:NoximProcessingElement
+rxProcess	NoximRouter.cpp	/^void NoximRouter::rxProcess()$/;"	f	class:NoximRouter
+sc_main	NoximMain.cpp	/^int sc_main(int arg_num, char *arg_vet[])$/;"	f
+sc_trace	NoximMain.h	/^inline void sc_trace(sc_trace_file * &tf, const NoximChannelStatus & bs, string & name)$/;"	f
+sc_trace	NoximMain.h	/^inline void sc_trace(sc_trace_file * &tf, const NoximFlit & flit, string & name)$/;"	f
+sc_trace	NoximMain.h	/^inline void sc_trace(sc_trace_file * &tf, const NoximNoP_data & NoP_data, string & name)$/;"	f
+searchCommHistory	NoximStats.cpp	/^int NoximStats::searchCommHistory(int src_id)$/;"	f	class:NoximStats
+searchNode	NoximNoC.cpp	/^NoximTile *NoximNoC::searchNode(const int id) const$/;"	f	class:NoximNoC
+selectionBufferLevel	NoximRouter.cpp	/^int NoximRouter::selectionBufferLevel(const vector < int >&directions)$/;"	f	class:NoximRouter
+selectionFunction	NoximRouter.cpp	/^int NoximRouter::selectionFunction(const vector < int >&directions,$/;"	f	class:NoximRouter
+selectionNoP	NoximRouter.cpp	/^int NoximRouter::selectionNoP(const vector < int >&directions,$/;"	f	class:NoximRouter
+selectionRandom	NoximRouter.cpp	/^int NoximRouter::selectionRandom(const vector < int >&directions)$/;"	f	class:NoximRouter
+selection_strategy	NoximMain.cpp	/^int NoximGlobalParams::selection_strategy = DEFAULT_SELECTION_STRATEGY;$/;"	m	class:NoximGlobalParams	file:
+selection_strategy	NoximMain.h	/^    static int selection_strategy;$/;"	m	struct:NoximGlobalParams
+sender_id	NoximMain.h	/^    int sender_id;$/;"	m	struct:NoximNoP_data
+sequence_no	NoximMain.h	/^    int sequence_no;		\/\/ The sequence number of the flit inside the packet$/;"	m	struct:NoximFlit
+setBit	NoximProcessingElement.cpp	/^void NoximProcessingElement::setBit(int &x, int w, int v)$/;"	f	class:NoximProcessingElement
+showConfig	NoximCmdLineParser.cpp	/^void showConfig()$/;"	f
+showHelp	NoximCmdLineParser.cpp	/^void showHelp(char selfname[])$/;"	f
+showStats	NoximGlobalStats.cpp	/^void NoximGlobalStats::showStats(std::ostream & out, bool detailed)$/;"	f	class:NoximGlobalStats
+showStats	NoximStats.cpp	/^void NoximStats::showStats(int curr_node, std::ostream & out, bool header)$/;"	f	class:NoximStats
+simulation_time	NoximMain.cpp	/^int NoximGlobalParams::simulation_time = DEFAULT_SIMULATION_TIME;$/;"	m	class:NoximGlobalParams	file:
+simulation_time	NoximMain.h	/^    static int simulation_time;$/;"	m	struct:NoximGlobalParams
+size	NoximMain.h	/^    int size;			\/\/ in terms of flits$/;"	m	struct:NoximPacket
+src	NoximGlobalTrafficTable.h	/^    int src;			\/\/ ID of the source node (PE)$/;"	m	struct:NoximCommunication
+src_id	NoximMain.h	/^    int src_id;$/;"	m	struct:NoximFlit
+src_id	NoximMain.h	/^    int src_id;$/;"	m	struct:NoximPacket
+src_id	NoximMain.h	/^    int src_id;$/;"	m	struct:NoximRouteData
+src_id	NoximStats.h	/^    int src_id;$/;"	m	struct:CommHistory
+stats_warm_up_time	NoximMain.cpp	/^int NoximGlobalParams::stats_warm_up_time = DEFAULT_STATS_WARM_UP_TIME;$/;"	m	class:NoximGlobalParams	file:
+stats_warm_up_time	NoximMain.h	/^    static int stats_warm_up_time;$/;"	m	struct:NoximGlobalParams
+t_off	NoximGlobalTrafficTable.h	/^    int t_off;			\/\/ Time (in cycles) at which activity ends$/;"	m	struct:NoximCommunication
+t_on	NoximGlobalTrafficTable.h	/^    int t_on;			\/\/ Time (in cycles) at which activity begins$/;"	m	struct:NoximCommunication
+t_period	NoximGlobalTrafficTable.h	/^    int t_period;		\/\/ Period after which activity starts again$/;"	m	struct:NoximCommunication
+timestamp	NoximMain.h	/^    double timestamp;		\/\/ SC timestamp at packet generation$/;"	m	struct:NoximPacket
+timestamp	NoximMain.h	/^    double timestamp;		\/\/ Unix timestamp at packet generation$/;"	m	struct:NoximFlit
+total_received_flits	NoximStats.h	/^    unsigned int total_received_flits;$/;"	m	struct:CommHistory
+trace_filename	NoximMain.cpp	/^char NoximGlobalParams::trace_filename[128] = DEFAULT_TRACE_FILENAME;$/;"	m	class:NoximGlobalParams	file:
+trace_filename	NoximMain.h	/^    static char trace_filename[128];$/;"	m	struct:NoximGlobalParams
+trace_mode	NoximMain.cpp	/^int NoximGlobalParams::trace_mode = DEFAULT_TRACE_MODE;$/;"	m	class:NoximGlobalParams	file:
+trace_mode	NoximMain.h	/^    static int trace_mode;$/;"	m	struct:NoximGlobalParams
+trafficBitReversal	NoximProcessingElement.cpp	/^NoximPacket NoximProcessingElement::trafficBitReversal()$/;"	f	class:NoximProcessingElement
+trafficButterfly	NoximProcessingElement.cpp	/^NoximPacket NoximProcessingElement::trafficButterfly()$/;"	f	class:NoximProcessingElement
+trafficOneDest	NoximProcessingElement.cpp	/^NoximPacket NoximProcessingElement::trafficOneDest()$/;"	f	class:NoximProcessingElement
+trafficRandom	NoximProcessingElement.cpp	/^NoximPacket NoximProcessingElement::trafficRandom()$/;"	f	class:NoximProcessingElement
+trafficShuffle	NoximProcessingElement.cpp	/^NoximPacket NoximProcessingElement::trafficShuffle()$/;"	f	class:NoximProcessingElement
+trafficTranspose1	NoximProcessingElement.cpp	/^NoximPacket NoximProcessingElement::trafficTranspose1()$/;"	f	class:NoximProcessingElement
+trafficTranspose2	NoximProcessingElement.cpp	/^NoximPacket NoximProcessingElement::trafficTranspose2()$/;"	f	class:NoximProcessingElement
+traffic_distribution	NoximMain.cpp	/^int NoximGlobalParams::traffic_distribution = DEFAULT_TRAFFIC_DISTRIBUTION;$/;"	m	class:NoximGlobalParams	file:
+traffic_distribution	NoximMain.h	/^    static int traffic_distribution;$/;"	m	struct:NoximGlobalParams
+traffic_table	NoximGlobalTrafficTable.h	/^     vector < NoximCommunication > traffic_table;$/;"	m	class:NoximGlobalTrafficTable
+traffic_table_filename	NoximMain.cpp	/^char NoximGlobalParams::traffic_table_filename[128] = DEFAULT_TRAFFIC_TABLE_FILENAME;$/;"	m	class:NoximGlobalParams	file:
+traffic_table_filename	NoximMain.h	/^    static char traffic_table_filename[128];$/;"	m	struct:NoximGlobalParams
+txProcess	NoximProcessingElement.cpp	/^void NoximProcessingElement::txProcess()$/;"	f	class:NoximProcessingElement
+txProcess	NoximRouter.cpp	/^void NoximRouter::txProcess()$/;"	f	class:NoximRouter
+valid	NoximGlobalRoutingTable.h	/^    bool valid;$/;"	m	class:NoximGlobalRoutingTable
+verbose_mode	NoximMain.cpp	/^int NoximGlobalParams::verbose_mode = DEFAULT_VERBOSE_MODE;$/;"	m	class:NoximGlobalParams	file:
+verbose_mode	NoximMain.h	/^    static int verbose_mode;$/;"	m	struct:NoximGlobalParams
+warm_up_time	NoximStats.h	/^    double warm_up_time;$/;"	m	class:NoximStats
+x	NoximMain.h	/^    int x;			\/\/ X coordinate$/;"	m	class:NoximCoord
+y	NoximMain.h	/^    int y;			\/\/ Y coordinate$/;"	m	class:NoximCoord
+~NoximBuffer	NoximBuffer.h	/^    virtual ~ NoximBuffer() {$/;"	f	class:NoximBuffer
